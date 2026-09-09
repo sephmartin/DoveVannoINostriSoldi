@@ -1,8 +1,6 @@
 name: Government scorecard snapshot
 
 on:
-  schedule:
-    - cron: "37 7 * * 2"
   workflow_dispatch:
 
 permissions:

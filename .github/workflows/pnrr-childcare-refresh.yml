@@ -10,8 +10,6 @@ on:
       - src/data/generated/pnrr-childcare.data.json
       - src/data/generated/pnrr-childcare.meta.json
       - .github/workflows/pnrr-childcare-refresh.yml
-  schedule:
-    - cron: "37 5 * * 1"
   workflow_dispatch:
     inputs:
       observed_at:

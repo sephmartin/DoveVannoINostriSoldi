@@ -10,8 +10,6 @@ on:
       - src/data/generated/mef-irpef-2024.meta.json
       - src/data/generated/mef-irpef-2024.data.json
       - .github/workflows/mef-irpef-refresh.yml
-  schedule:
-    - cron: "17 6 * * 1"
   workflow_dispatch:
     inputs:
       observed_at:

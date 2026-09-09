@@ -1,8 +1,6 @@
 name: Source health
 
 on:
-  schedule:
-    - cron: "41 */6 * * *"
   workflow_dispatch:
 
 # contents: read — least-privilege: only read repository contents.

@@ -1,8 +1,6 @@
 name: SIOPE municipal snapshot
 
 on:
-  schedule:
-    - cron: "29 4 * * *"
   workflow_dispatch:
     inputs:
       force:

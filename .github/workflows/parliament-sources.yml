@@ -12,8 +12,6 @@ on:
       - tests/etl/test_parliament_sources.py
       - tests/fixtures/parliament/**
       - .github/workflows/parliament-sources.yml
-  schedule:
-    - cron: "37 */6 * * *"
   workflow_dispatch:
 
 # contents: read — least-privilege: only read repository contents.

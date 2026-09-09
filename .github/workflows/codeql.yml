@@ -4,8 +4,6 @@ on:
   push:
     branches: [main]
   pull_request:
-  schedule:
-    - cron: "22 4 * * 1"
   workflow_dispatch:
 
 # No workflow-level permissions — each job declares its own minimum scope.

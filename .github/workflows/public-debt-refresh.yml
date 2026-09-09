@@ -1,8 +1,6 @@
 name: Public debt snapshot
 
 on:
-  schedule:
-    - cron: "17 6 * * *"
   workflow_dispatch:
 
 permissions:

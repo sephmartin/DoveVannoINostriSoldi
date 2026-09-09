@@ -1,8 +1,6 @@
 name: Atlante Imprese snapshot
 
 on:
-  schedule:
-    - cron: "41 5 * * *"
   workflow_dispatch:
 
 permissions:
