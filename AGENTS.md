@@ -8,6 +8,14 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+# DVNS project context
+
+Before planning, reviewing, implementing, or opening a PR, read
+`docs/PROJECT_CONTEXT.md`. It is the portable cross-branch context for the
+project's mission, data semantics, provenance boundaries, PR expectations, and
+agent routing. Then load only the deeper `docs/` references relevant to the
+task and verify dated or live claims against the current repository or service.
+
 # Lavorare in questo repository
 
 - Leggi `docs/ARCHITECTURE.md` per i percorsi reali del dato e `CONTRIBUTING.md`
